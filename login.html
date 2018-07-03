@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body oncontextmenu="return false">
+    <div class="body"></div>
+    <p class="ego">
+        "Progress is impossible without change, <br>
+        and those who cannot change their minds cannot change anything."
+    </p>
+    <div class="grad"></div>
+    <div class="header">
+        <div>Login<span>Test</span></div>
+    </div>
+    <br>
+    <form name="login">
+    <div class="login">
+            <input type="text" placeholder="Name" name="userid"><br>
+            <input type="password" placeholder="Password" name="pswrd"><br>
+            <input type="button" onclick="check(this.form)" value="Login"/>
+    </div>
+    <script language="javascript">
+            function check(form)
+            {
+
+             if(form.userid.value == "Name" && form.pswrd.value == "123")
+             {
+                window.open('https://www.youtube.com/')
+                
+             }
+             else
+             {
+               alert("You are testing my tutorial js project. Name: Name, Pw: 123")
+             }
+             
+            }
+    </script>
+</body>
+</html>
